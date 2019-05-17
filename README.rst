@@ -42,6 +42,12 @@ as well. Using the preceding example, typing "cd ~/public_html/mywebpage" will
 execute the 'enter' in ~/public_html. The reverse is also true: when leaving 
 a path, all 'leave' scripts in the intermediate directories are executed.
 
+Environment Variables
+---------------------
+
+ONDIRWD is set to the directory specified in the 'enter' or 'leave' entry 
+before executing any scripts.
+
 A more useful example
 ---------------------
 Ondir is particularly useful with `virtualenv
